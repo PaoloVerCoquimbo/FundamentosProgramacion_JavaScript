@@ -1,30 +1,66 @@
 <!DOCTYPE html>
+<!-- Declara que este documento es un archivo HTML5 -->
 <html lang="en">
+<!-- Inicia el documento HTML y especifica que el idioma es inglés -->
 
 <head>
+    <!-- Contiene metadatos del documento, como codificación, título, fuentes y estilos -->
     <meta charset="UTF-8">
+    <!-- Define la codificación de caracteres como UTF-8, compatible con la mayoría de idiomas -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura el "viewport" para que sea responsivo en dispositivos móviles -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Optimiza la carga previa para conectarse más rápido a Google Fonts -->
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Permite la precarga de fuentes de Google Fonts con permisos cruzados (CORS) -->
+
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
         rel="stylesheet">
+    <!-- Importa dos familias de fuentes de Google Fonts: Chakra Petch (peso 700) e Inter (pesos 400 y 700) -->
+
     <link rel="stylesheet" href="style.css">
+    <!-- Vincula el archivo de estilos externo style.css al HTML -->
+
     <title>JS Game</title>
+    <!-- Título de la pestaña del navegador -->
 </head>
 
 <body>
+    <!-- Contenido visible del sitio -->
+
     <div class="container">
+        <!-- Div principal con clase 'container' que agrupa todo el contenido -->
+
         <div class="container__contenido">
+            <!-- Sección interna que contiene la imagen del robot y la información del resultado -->
+
             <img src="./img/robot.png" alt="Robot" class="container__imagen-robot" />
+            <!-- Imagen del robot, con clase para estilos y texto alternativo accesible -->
+
             <div class="container__informaciones">
+                <!-- Div que contiene la imagen del trofeo y el texto del mensaje -->
+
                 <img src="./img/trophy.png" alt="Icono de trofeo" />
-                 <div class="container__texto">
+                <!-- Imagen del trofeo, sin clase pero con texto alternativo -->
+
+                <div class="container__texto">
+                    <!-- Div para agrupar el texto de éxito -->
+
                     <h1><span class="container__texto-azul">Correcto!</span></h1>
+                    <!-- Título principal con una palabra ("Correcto!") destacada con una clase -->
+
                     <h2>Descubriste el número secreto!</h2>
-                     <script src="app.js"></script>
+                    <!-- Subtítulo que explica lo que logró el jugador -->
+
+                    <script src="app.js"></script>
+                    <!-- Vincula el archivo de JavaScript 'app.js' al final del contenido textual -->
                 </div>
             </div>
         </div>
     </div>
 </body>
 </html>
+<!-- Fin del documento HTML -->
